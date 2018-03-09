@@ -55,7 +55,8 @@ const about = Vue.component('app-about', {
 new Vue({
   el: '#portfolio',
   data: {
-    currentView: 'home'
+    currentView: 'home',
+    isActive: true
   },
   components: {
     home: home,

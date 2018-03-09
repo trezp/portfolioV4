@@ -1,4 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 90%;
+  padding-top: 30px;
+  margin: auto;
+}
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav a {
+  padding: 10px;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+.main-nav a:hover {
+  color: black;
 }
